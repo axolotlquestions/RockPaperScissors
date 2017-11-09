@@ -8,7 +8,7 @@ import android.widget.TextView;
 
 import java.sql.ResultSet;
 
-public class MainActivity extends AppCompatActivity {
+public class GameActivity extends AppCompatActivity {
 
     Button RockButton;
     Button PaperButton;

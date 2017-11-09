@@ -35,19 +35,19 @@ public class Game {
             return "Rock beats Scissors. You won!";
         }
         if (hand1 == Hand.ROCK && hand2 == Hand.PAPER) {
-            return "Paper beats Rock. You lost";
+            return "Paper beats Rock. You lost.";
         }
         if (hand1 == Hand.PAPER && hand2 == Hand.ROCK) {
-            return "Paper beats Rock. You won";
+            return "Paper beats Rock. You won!";
         }
         if (hand1 == Hand.PAPER && hand2 == Hand.SCISSORS) {
-            return "Scissors beats Paper. You lost";
+            return "Scissors beats Paper. You lost.";
         }
         if (hand1 == Hand.SCISSORS && hand2 == Hand.PAPER) {
-            return "Scissors beats Paper. You won";
+            return "Scissors beats Paper. You won!";
         }
         if (hand1 == Hand.SCISSORS && hand2 == Hand.ROCK) {
-            return "Rock beats Scissors. You lost";
+            return "Rock beats Scissors. You lost.";
         }
         return null;
     }
